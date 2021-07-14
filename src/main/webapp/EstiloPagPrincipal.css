@@ -2,6 +2,8 @@ body{
     background-image:url("manga.jpg");
 }
 #divprincipal{
+    padding-top: 10px;
+    padding-bottom: 40px;
     margin: auto;
     width: 700px;
     background-color: lavenderblush;
@@ -10,10 +12,13 @@ body{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 
 }
+th{
+    padding-left:100px;
+}
 label{
     position: relative;
-    width: 120px;
-    left:10px;
+    width: 170px;
+    left: 20px;
     display: inline-block;
 
 }
@@ -31,4 +36,4 @@ form{
     margin:auto;
     width: 500px;
 
-  }
+}
