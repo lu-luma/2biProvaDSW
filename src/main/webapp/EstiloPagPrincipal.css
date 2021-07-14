@@ -10,10 +10,7 @@ body{
     border: none;
     border-radius:10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-
-}
-th{
-    padding-left:100px;
+    font-family: Optima, sans-serif;
 }
 label{
     position: relative;
@@ -22,18 +19,77 @@ label{
     display: inline-block;
 
 }
-input{
+.texto{
     position: relative;
     left: 20px;
-    width: 150px ;
+    width: 250px ;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: lightgrey;
+    padding: 3px;
 }
 select{
     position: relative;
     left: 20px;
     width: 250px;
+    font-family: Optima, sans-serif;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: lightgrey;
+    padding: 3px;
 }
 form{
     margin:auto;
     width: 500px;
-
+    font-size: 14px;
+}
+button{
+    width: 150px;
+    text-align: center;
+    border: none;
+    border-radius: 7px;
+    background-color: dodgerblue;
+    color: white;
+    font-family: Optima, sans-serif;
+    font-size: medium;
+    float: right;
+}
+legend{
+    font-size: medium;
+    font-weight: bold;
+}
+.fieldsetIndex{
+    border-radius: 5px;
+    border:solid 1px;
+    border-color: tan;
+}
+#um{
+    padding-left: 100px;
+}
+#dois{
+    padding-left: 50px;
+}
+.radio_check{
+    position: relative;
+    left: 20px;
+    width: 50px ;
+}
+#fieldsetdoprocessamento{
+    border-radius: 5px;
+    border:solid 1px;
+    border-color: tan;
+    margin: auto;
+}
+#divprincipalProcessamento{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin: auto;
+    width: 700px;
+    background-color: lavenderblush;
+    border: none;
+    border-radius:10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    font-family: Optima, sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
 }
